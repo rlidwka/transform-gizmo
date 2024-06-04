@@ -26,7 +26,7 @@ mint = "0.5"
 enum_dispatch = "0.3.12"
 ahash = "0.8.7"
 enumset = "1.1.3"
-bevy = "0.13"
+bevy = { version = "0.13", default-features = false }
 bevy_math = { version = "0.13", features = ["mint"] }
 
 [profile.release]
